@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-  "rulesDirectory": path.join(path.dirname(require.resolve("codelyzer"))),
+  "rulesDirectory": path.join(path.dirname(require.resolve("codelyzer")), './rules'),
   "rules": {
     "arrow-return-shorthand": true,
     "callable-types": true,
@@ -79,13 +79,17 @@ module.exports = {
     "no-string-throw": true,
     "no-sparse-arrays": true,
     "no-invalid-template-strings": true,
+    "no-suspicious-comment": false,
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unnecessary-initializer": true,
+    "no-unnecessary-qualifier": true,
     "no-unused-expression": true,
     "no-unused-variable": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
+    "no-var-requires": true,
+    "no-var-self": true,
     "object-literal-sort-keys": false,
     "one-line": [
       true,
@@ -94,7 +98,14 @@ module.exports = {
       "check-else",
       "check-whitespace"
     ],
-    "prefer-const": true,
+    "prefer-array-literal": true,
+    "return-undefined": false,
+    "prefer-const": [
+      true,
+      {
+        "destructuring": "all"
+      }
+    ],
     "quotemark": [
       true,
       "single"
@@ -153,7 +164,6 @@ module.exports = {
     "no-access-missing-member": true,
     "templates-use-public": true,
     "invoke-injectable": true,
-    "prefer-const ": true,
     "trailing-comma": [
       true,
       {
@@ -173,9 +183,7 @@ module.exports = {
     "no-string-based-set-immediate": true,
     "no-string-based-set-interval": true,
     "no-string-based-set-timeout": true,
-    "no-duplicate-key": true,
     "no-document-write": true,
-    "no-http-string": true,
     "no-inner-html": true,
     "cyclomatic-complexity": [
       true,
@@ -193,6 +201,53 @@ module.exports = {
     ],
     "object-literal-shorthand": true,
     "arrow-parens": true,
-    "no-unnecessary-callback-wrapper": true
+    "no-unnecessary-callback-wrapper": true,
+    "await-promise": true,
+    "jquery-deferred-must-complete": true,
+    "match-default-export-name": true,
+    "mocha-avoid-only": true,
+    "mocha-no-side-effect-code": true,
+    "no-any": true,
+    "no-conditional-assignment": true,
+    "no-constant-condition": true,
+    "no-control-regex": true,
+    "no-duplicate-case": true,
+    "no-duplicate-variable": true,
+    "no-floating-promises": true,
+    "no-for-in-array": true,
+    "no-import-side-effect": true,
+    "no-increment-decrement": false,
+    "no-invalid-regexp": true,
+    "no-invalid-this": true,
+    "no-jquery-raw-elements": true,
+    "no-reference-import": true,
+    "no-regex-spaces": true,
+    "no-stateless-class": false,
+    "no-unnecessary-bind": true,
+    "no-unnecessary-override": true,
+    "no-unsafe-any": false,
+    "no-with-statement": true,
+    "promise-function-async": true,
+    "promise-must-complete": true,
+    "react-this-binding-issue": true,
+    "react-unused-props-and-state": true,
+    "restrict-plus-operands": true, // the plus operand should really only be used for strings and numbers
+    "strict-boolean-expressions": false,
+    "switch-default": true,
+    "use-isnan": true,
+    "use-named-parameter": true,
+    "valid-typeof": true,
+    "insecure-random": true,
+    "no-cookies": true,
+    "no-http-string": [
+      true,
+      "http://www.example.com/?.*",
+      "http://www.examples.com/?.*"
+    ],
+    "non-literal-require": true,
+    "possible-timing-attack": true,
+    "react-anchor-blank-noopener": true,
+    "react-iframe-missing-sandbox": true,
+    "react-no-dangerous-html": true
   }
 }
