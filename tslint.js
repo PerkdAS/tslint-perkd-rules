@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-  "rulesDirectory": path.join(path.dirname(require.resolve("codelyzer")), './rules'),
+  "rulesDirectory": [path.join(path.dirname(require.resolve("codelyzer"))), './rules'],
   "rules": {
     "arrow-return-shorthand": true,
     "callable-types": true,
