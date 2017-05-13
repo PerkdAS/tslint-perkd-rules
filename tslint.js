@@ -231,7 +231,7 @@ module.exports = {
     "promise-must-complete": true,
     "react-this-binding-issue": true,
     "react-unused-props-and-state": true,
-    "restrict-plus-operands": true, // the plus operand should really only be used for strings and numbers
+    "restrict-plus-operands": false, // the plus operand should really only be used for strings and numbers
     "strict-boolean-expressions": false,
     "switch-default": true,
     "use-isnan": true,
