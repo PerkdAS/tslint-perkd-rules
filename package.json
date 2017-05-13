@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerkdAS/tslint-perkd-rules.git"
+  },
   "keywords": [
     "tslint",
     "rules",
@@ -18,5 +22,11 @@
     "tslint-plugin"
   ],
   "author": "Perkd",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "codelyzer": "~3.0.1"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0"
+  }
 }
