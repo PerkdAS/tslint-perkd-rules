@@ -215,7 +215,7 @@ module.exports = {
     "no-duplicate-variable": true,
     "no-floating-promises": true,
     "no-for-in-array": true,
-    "no-import-side-effect": true,
+    "no-import-side-effect": [true, { "ignore-pattern": "rxjs.*/" }],
     "no-increment-decrement": false,
     "no-invalid-regexp": true,
     "no-invalid-this": true,
