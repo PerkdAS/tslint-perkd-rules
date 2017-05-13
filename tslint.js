@@ -227,7 +227,7 @@ module.exports = {
     "no-unnecessary-override": true,
     "no-unsafe-any": false,
     "no-with-statement": true,
-    "promise-function-async": true,
+    "promise-function-async": false,
     "promise-must-complete": true,
     "react-this-binding-issue": true,
     "react-unused-props-and-state": true,
