@@ -1,6 +1,6 @@
 {
   "name": "@blitt/tslint-perkd-rules",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tslint rules used in the perkd organization",
   "main": "tslint.js",
   "scripts": {
