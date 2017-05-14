@@ -213,7 +213,7 @@ module.exports = {
     "no-control-regex": true,
     "no-duplicate-case": true,
     "no-duplicate-variable": true,
-    "no-floating-promises": true,
+    "no-floating-promises": false,
     "no-for-in-array": true,
     "no-import-side-effect": [true, { "ignore-pattern": "rxjs.*/" }],
     "no-increment-decrement": false,
