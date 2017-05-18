@@ -85,7 +85,7 @@ module.exports = {
     "no-unnecessary-initializer": true,
     "no-unnecessary-qualifier": true,
     "no-unused-expression": true,
-    "no-unused-variable": true,
+    "no-unused-variable": [true, "check-parameters", { "ignore-pattern": "^_" }],
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "no-var-requires": true,
