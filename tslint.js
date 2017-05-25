@@ -17,7 +17,10 @@ module.exports = {
     "number-literal-format": true,
     "curly": true,
     "eofline": true,
+    "encoding": true,
     "forin": true,
+    "prefer-object-spread": true,
+    "prefer-conditional-expression": true,
     "import-blacklist": [
       true,
       "rxjs",
@@ -141,13 +144,13 @@ module.exports = {
       "check-type"
     ],
     "directive-selector": [
-      true,
+      false,
       "attribute",
       "pkd",
       "camelCase"
     ],
     "component-selector": [
-      true,
+      false,
       "element",
       "pkd",
       "kebab-case"
