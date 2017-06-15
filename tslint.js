@@ -166,8 +166,6 @@ module.exports = {
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
     "directive-class-suffix": true,
-    "no-access-missing-member": true,
-    "templates-use-public": true,
     "invoke-injectable": true,
     "trailing-comma": [
       true,
