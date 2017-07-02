@@ -167,6 +167,8 @@ module.exports = {
     "component-class-suffix": true,
     "directive-class-suffix": true,
     "invoke-injectable": true,
+    "no-access-missing-member": true,
+    "template-to-ng-template":true,
     "trailing-comma": [
       true,
       {
@@ -174,6 +176,10 @@ module.exports = {
         "singleline": "never"
       }
     ],
+    "angular-whitespace": true,
+    "banana-in-box": true,
+    "templates-no-negated-async": true,
+    "templates-use-public": true,
     "no-banned-terms": true,
     "no-delete-expression": true,
     "no-document-domain": true,
