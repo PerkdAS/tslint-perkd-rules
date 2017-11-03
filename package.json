@@ -24,13 +24,13 @@
   "author": "Perkd",
   "license": "MIT",
   "peerDependencies": {
-    "codelyzer": ">=3.1.1",
-    "@angular/compiler": ">=4.0.0 < 5.0.0",
-    "@angular/core": ">=4.0.0 < 5.0.0",
-    "tslint": "^5.0.0"
+    "codelyzer": "^4.0.0",
+    "@angular/compiler": ">=4.0.0 < 6.0.0",
+    "@angular/core": ">=4.0.0 < 6.0.0",
+    "tslint": "^5.8.0"
   },
   "devDependencies": {
-    "codelyzer": "^3.1.2",
-    "tslint": "^5.6.0"
+    "codelyzer": "^4.0.0",
+    "tslint": "^5.8.0"
   }
 }

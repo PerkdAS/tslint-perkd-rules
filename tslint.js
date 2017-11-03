@@ -58,6 +58,13 @@ module.exports = {
     ],
     "no-arg": true,
     "no-bitwise": true,
+    "no-this-assignment": true,
+    "no-duplicate-imports": true,
+    "no-submodule-imports": [true, "rxjs", "core-js", "zone.js", "@angular/platform-browser", "@angular/core/testing", "@angular/platform-browser-dynamic"],
+    "no-parameter-reassignment": true,
+    "no-unnecessary-class": ["allow-empty-class"],
+    "ban-comma-operator": true,
+    "no-implicit-dependencies": [true, "dev"],
     "no-console": [
       true,
       "debug",
@@ -76,6 +83,7 @@ module.exports = {
       true,
       "ignore-params"
     ],
+    "no-redundant-jsdoc": false,
     "no-misused-new": true,
     "use-default-type-parameter": true,
     "no-non-null-assertion": true,
@@ -86,6 +94,7 @@ module.exports = {
     "no-invalid-template-strings": true,
     "no-suspicious-comment": false,
     "no-switch-case-fall-through": true,
+    "no-duplicate-switch-case": true,
     "no-trailing-whitespace": true,
     "no-unnecessary-initializer": true,
     "no-unnecessary-qualifier": true,
@@ -96,6 +105,7 @@ module.exports = {
     "no-var-requires": true,
     "no-var-self": true,
     "object-literal-sort-keys": false,
+    "no-return-await": true,
     "one-line": [
       true,
       "check-open-brace",
@@ -134,7 +144,6 @@ module.exports = {
         "variable-declaration": "nospace"
       }
     ],
-    "typeof-compare": true,
     "unified-signatures": true,
     "variable-name": false,
     "whitespace": [
@@ -166,9 +175,7 @@ module.exports = {
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
     "directive-class-suffix": true,
-    "invoke-injectable": true,
-    "no-access-missing-member": true,
-    "template-to-ng-template":true,
+    "no-output-on-prefix-name": true,
     "trailing-comma": [
       true,
       {
@@ -176,11 +183,12 @@ module.exports = {
         "singleline": "never"
       }
     ],
-    "angular-whitespace": true,
+    "angular-whitespace": [true, "check-semicolon", "check-interpolation"],
     "banana-in-box": true,
+    "no-unused-css": true,
     "templates-no-negated-async": true,
-    "templates-use-public": true,
     "no-banned-terms": true,
+    "use-view-encapsulation": true,
     "no-delete-expression": true,
     "no-document-domain": true,
     "no-disable-auto-sanitization": true,
