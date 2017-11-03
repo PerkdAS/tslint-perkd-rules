@@ -60,7 +60,7 @@ module.exports = {
     "no-bitwise": true,
     "no-this-assignment": true,
     "no-duplicate-imports": true,
-    "no-submodule-imports": [true, "rxjs", "core-js", "zone.js", "@angular/platform-browser", "@angular/core/testing", "@angular/platform-browser-dynamic"],
+    "no-submodule-imports": [true, "rxjs", "core-js", "zone.js", "@angular/platform-browser", "@angular/core/testing", "@angular/platform-browser-dynamic", "@angular/common",],
     "no-parameter-reassignment": true,
     "no-unnecessary-class": ["allow-empty-class"],
     "ban-comma-operator": true,
