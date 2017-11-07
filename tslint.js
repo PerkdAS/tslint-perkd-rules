@@ -175,7 +175,7 @@ module.exports = {
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
     "directive-class-suffix": true,
-    "no-output-on-prefix-name": true,
+    "no-output-on-prefix": true,
     "trailing-comma": [
       true,
       {
